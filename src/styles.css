@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* CSS HEX */
+:root {
+    --white: #ffffffff;
+    --cosmic-latte: #fff8e8ff;
+    --jasmine: #fcd581ff;
+    --rusty-red: #d52941ff;
+    --claret: #990d35ff;
+}
+
+/* CSS HSL */
+/* --white: hsla(0, 0%, 100%, 1);
+--cosmic-latte: hsla(42, 100%, 95%, 1);
+--jasmine: hsla(41, 95%, 75%, 1);
+--rusty-red: hsla(352, 68%, 50%, 1);
+--claret: hsla(343, 84%, 33%, 1); */
