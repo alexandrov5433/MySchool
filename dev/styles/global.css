@@ -1,0 +1,19 @@
+:root {
+    --black: #000000;
+    --dim-gray: rgb(105,105,105);
+    --white: #ffffffff;
+    --cosmic-latte: #fff8e8ff;
+    --jasmine: #fcd581ff;
+    --rusty-red: #d52941ff;
+    --claret: #990d35ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2vw;
+    font-family: "Clarkson", Helvetica, sans-serif;
+}
