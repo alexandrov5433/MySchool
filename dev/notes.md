@@ -1,11 +1,8 @@
 # Development Notes
 
 ## Navigation
-All words in uppercase.
-Color: white; background-color: black;
-
 ### Guest Nav
-Home  About  Contact  FAQ   Forms & Documents          Register as Parent    Log In(Student, Parent, Teacher)    Apply Now(as Student; black color with white background - square)
+Home  About  Contact  FAQ   Forms & Documents          Register as Parent    Log In(Student, Parent, Teacher)    Apply Now(as Student)
 
 ### Student Nav
 Home  About  Contact  FAQ    Forms & Documents         My Subjects    My Grades   My Profile   Logout
