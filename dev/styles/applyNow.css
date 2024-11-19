@@ -130,7 +130,7 @@
 /* error communacation */
 /* show span and edit textContent when error */
 .apply-now span.error {
-    display: block;
+    display: none;
     color: var(--rusty-red);
     font-size: var(--size-error-msg);
 }
