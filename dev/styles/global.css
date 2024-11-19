@@ -13,12 +13,15 @@
     /* size */
     --size-title: 60px;
     --size-option: 25px;
+    --size-description: 20px;
     --size-small-msg: 18px;
     --size-error-msg: 22px;
     /* component box shadow */
     --component-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     /* animation */
     --translate-y-btn: translateY(3px);
+    /* component border radius */
+    --border-radius: 4px;
 }
 
 * {
