@@ -11,7 +11,7 @@
     margin: 0 auto;
     background-color: var(--white);
     padding: 40px;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     color: var(--dark-cold-gray);
     box-shadow: var(--component-box-shadow);
 }
@@ -47,7 +47,7 @@
     background: var(--light-cold-gray);
     border: none;
     border-bottom: 4px solid var(--gray);
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     box-shadow: none;
     outline: none;
     color: inherit;
@@ -62,7 +62,7 @@
 .register form .btn {
     background: var(--rusty-red);;
     border: none;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     font-size: var(--size-option);
     font-weight: bold;
     padding: 15px 70px;
