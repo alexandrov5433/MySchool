@@ -1,6 +1,6 @@
 .apply-now {
     padding-top: 1vh;
-    height: inherit; 
+    height: inherit;
     width: 100%;
 }
 
@@ -19,6 +19,7 @@
     text-align: center;
     padding: 0 0 20px;
     color: var(--black);
+
     h2 {
         font-size: var(--size-title);
     }
@@ -35,12 +36,14 @@
     padding: 10px;
     background-color: var(--light-cold-gray);
     border-radius: var(--border-radius);
+
     span {
         text-align: left;
         display: block;
         font-size: var(--size-description);
         margin-bottom: 15px;
     }
+
     a {
         text-decoration: none;
         text-transform: uppercase;
@@ -53,6 +56,7 @@
 }
 
 .apply-now .form-group.special-input {
+    /* padding-left: 30px; */
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -70,6 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     label {
         margin-right: 15px;
         font-size: var(--size-option);
@@ -93,7 +98,8 @@
 }
 
 .apply-now form .btn {
-    background: var(--rusty-red);;
+    background: var(--rusty-red);
+    ;
     border: none;
     border-radius: var(--border-radius);
     font-size: var(--size-option);
@@ -116,6 +122,7 @@
 .apply-now .no-acc-msg {
     color: var(--dim-gray);
     font-size: var(--size-small-msg);
+
     a {
         text-decoration: none;
         text-transform: uppercase;
