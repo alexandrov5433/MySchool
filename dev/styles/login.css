@@ -11,7 +11,7 @@
     background-color: var(--white);
     padding: 40px;
     border-radius: 4px;
-    color: #505e6c;
+    color: var(--dark-cold-gray);
     box-shadow: var(--component-box-shadow);
 }
 
