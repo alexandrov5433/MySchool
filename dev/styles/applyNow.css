@@ -124,7 +124,7 @@
 }
 
 .apply-now .error-msg-group {
-    height: 100px;
+    max-height: 100px;
 }
 
 /* error communacation */
