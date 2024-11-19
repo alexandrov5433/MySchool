@@ -1,11 +1,23 @@
 :root {
     --black: #000000;
+    --light-cold-gray: #f7f9fc;
+    --gray: #838383;
     --dim-gray: rgb(105,105,105);
     --white: #ffffffff;
     --cosmic-latte: #fff8e8ff;
     --jasmine: #fcd581ff;
+    --active-red: #f25577;
     --rusty-red: #d52941ff;
     --claret: #990d35ff;
+    /* size */
+    --size-title: 60px;
+    --size-option: 25px;
+    --size-small-msg: 18px;
+    --size-error-msg: 22px;
+    /* component box shadow */
+    --component-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    /* animation */
+    --translate-y-btn: translateY(3px);
 }
 
 * {
