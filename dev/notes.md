@@ -5,7 +5,7 @@
 Home  About  Contact  FAQ   Forms & Documents          Register(Parent, Teacher)    Log In(Student, Parent, Teacher)    Apply Now(Student)
 
 ### Student Nav
-Home  About  Contact  FAQ    Forms & Documents         My Subjects    My Grades   My Profile   Logout
+Home  About  Contact  FAQ    Forms & Documents         Subjects(My Subjects, All Subjects)    My Grades   My Profile   Logout
 
 ### Parents Nav
 Home  About  Contact  FAQ    Forms & Documents         Student Grades    My Profile   Logout
