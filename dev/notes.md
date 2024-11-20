@@ -25,12 +25,14 @@ Available subject categories:
 - Chemistry
 - History
 - Physical Education
+
 Student:
 - My Subjects (overview) -> Subject Details (id)
+
 Teacher: 
 - My Subjects (overview) -> Subject Details (id)
-- Create Subject
-- View All Subjects -> All Subjects (overview; with search?)
+- Create Subject (select one category)
+- All Subjects (overview) -> All Subjects (overview; with search?)
 
 ### All Subjects (overview; with search?) - Student
 A quick JOIN btn is present in each component. If student already participates in a subject of the same category (eg. Math) - no JOIN btn is dispayed for this category (eg. Math).
