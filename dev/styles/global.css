@@ -2,16 +2,20 @@
     --black: #000000;
     --light-cold-gray: #f7f9fc;
     --gray: #838383;
-    --dim-gray: rgb(105,105,105);
+    --dim-gray: rgb(105, 105, 105);
     --dark-cold-gray: #505e6c;
     --white: #ffffffff;
     --cosmic-latte: #fff8e8ff;
+    --active-jasmine: rgb(255, 229, 171);
     --jasmine: #fcd581ff;
+    --active-mint-green: #c2efc2;
+    --mint-green: #9ae59a;
     --active-red: #f25577;
     --rusty-red: #d52941ff;
     --claret: #990d35ff;
     /* size */
     --size-title: 60px;
+    --size-mid-title: 40px;
     --size-option: 25px;
     --size-description: 20px;
     --size-small-msg: 18px;
@@ -34,6 +38,7 @@ html {
     font-family: "Clarkson", Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
