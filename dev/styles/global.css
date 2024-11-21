@@ -1,6 +1,7 @@
 :root {
     --black: #000000;
     --light-cold-gray: #f7f9fc;
+    --background-gray: #f5f5f5;
     --gray: #838383;
     --dim-gray: rgb(105, 105, 105);
     --dark-cold-gray: #505e6c;
@@ -14,6 +15,7 @@
     --rusty-red: #d52941ff;
     --claret: #990d35ff;
     /* size */
+    --size-big-title: 80px;
     --size-title: 60px;
     --size-mid-title: 40px;
     --size-option: 25px;
