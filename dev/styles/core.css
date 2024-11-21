@@ -78,7 +78,7 @@ div.navigation li:hover {
 
 /* main element */
 main {
-    background-color: var(--white);
+    background-color: var(--background-gray);
     padding: 1vh 1vw;
     flex: 1 1 auto;
     overflow-y: auto;
