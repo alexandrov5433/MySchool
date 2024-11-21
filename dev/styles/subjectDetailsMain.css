@@ -1,0 +1,162 @@
+.subject-details-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.subject-details-view .location {
+    border-bottom: 1px solid var(--black);
+
+    span {
+        font-size: var(--size-option);
+        font-weight: bold;
+    }
+}
+
+.subject-details-view .container {
+    box-shadow: var(--component-box-shadow);
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+    margin-top: 20px;
+}
+
+.subject-details-view .image-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        z-index: 1;
+    }
+    div {
+        position: absolute;
+        z-index: 2;
+        color: var(--black);
+        font-size: var(--size-big-title);
+        font-weight: bold;
+    }
+}
+.subject-details-view .teacher-pic-container {
+    position: relative;
+    height: 420px; 
+    z-index: 3;
+    img {
+        border: 8px solid var(--black);
+        transform: translateZ(400px);
+        width: 200px;
+        height: 260px; 
+    }
+}
+
+.subject-details-view .upper-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.subject-details-view .lower-content {
+    display: flex;
+    border-top: 5px solid var(--black);
+}
+
+.subject-details-view .infos-and-mininav {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.subject-details-view .infos {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .name {
+        font-size: var(--size-mid-title);
+        font-weight: bold;
+    }
+    .subject-id {
+        font-size: var(--size-option);
+        font-weight: bold;
+        color: var(--gray);
+    }
+}
+
+.subject-details-view .mininav {
+    display: flex;
+    height: 40px;
+    button {
+        display: inline;
+        font-size: var(--size-description);
+        background-color: var(--background-gray);
+        border-bottom: transparent;
+        font-weight: bold;
+        padding: 0 12px;
+        border: transparent;
+        color: var(--black);
+    }
+    button:hover {
+        color: var(--rusty-red);
+    }
+    /* add this class to indicate the active field/button */
+    button.colorize {
+        background-color: var(--black);
+        color: var(--white);
+    }
+}
+
+.subject-details-view .controls-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    button {
+        height: 40px;
+        width: 120px;
+        
+        border: none;
+        border-radius: var(--border-radius);
+        font-size: var(--size-option);
+        font-weight: bold;
+        box-shadow: none;
+        text-shadow: none;
+        outline: none !important;
+    }
+
+    button:active {
+        transform: var(--translate-y-btn);
+    }
+
+    button.join {
+        background: var(--mint-green);
+    }
+    button.join:active {
+        transform: var(--translate-y-btn);
+        background: var(--active-mint-green);
+    }
+
+    button.leave {
+        
+        background: var(--rusty-red);
+    }
+    button.leave:active {
+        background: var(--active-red);
+    }
+}
+
+/* add class to hide a button */
+.subject-details-view button.hide{
+    display: none;
+}
