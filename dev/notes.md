@@ -65,5 +65,13 @@ Teacher - CRUD - see "Students" part
 Student and Parent - same grades overview for both
 
 ## My Profile (Student, Parent and Teacher)
+Data:
+- first name
+- last name
+- date of birth
+- profile picture
+- email
+- telephone
+- id in system
 Owner: CRUD
 Non-owner: view only
