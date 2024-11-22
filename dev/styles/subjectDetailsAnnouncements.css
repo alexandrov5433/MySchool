@@ -12,6 +12,10 @@
     background-color: var(--background-gray);
 }
 
+.announcements-container .announcement:hover {
+    box-shadow: var(--component-box-shadow);
+}
+
 .announcements-container .announcement .upper {
     display: flex;
     flex-direction: row;
