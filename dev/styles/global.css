@@ -19,6 +19,7 @@
     --size-title: 60px;
     --size-mid-title: 40px;
     --size-option: 25px;
+    --size-text: 28px;
     --size-description: 20px;
     --size-small-msg: 18px;
     --size-error-msg: 22px;
@@ -28,6 +29,8 @@
     --translate-y-btn: translateY(3px);
     /* component border radius */
     --border-radius: 4px;
+    /* font */
+    --font-family: "Clarkson", Helvetica, sans-serif;
 }
 
 * {
