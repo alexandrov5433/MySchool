@@ -64,6 +64,8 @@
 .subject-details-view .lower-content {
     display: flex;
     border-top: 5px solid var(--black);
+    flex-direction: column;
+    align-items: center;
 }
 
 .subject-details-view .infos-and-mininav {
@@ -148,7 +150,6 @@
     }
 
     button.leave {
-        
         background: var(--rusty-red);
     }
     button.leave:active {
