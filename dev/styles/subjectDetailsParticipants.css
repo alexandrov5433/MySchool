@@ -66,17 +66,17 @@
         outline: none !important;
     }
 
-    button.edit {
+    button.green-btn {
         background-color: var(--mint-green);
     }
-    button.edit:active {
+    button.green-btn:active {
         background-color: var(--active-mint-green);
     }
 
-    button.delete {
+    button.red-btn {
         background-color: var(--rusty-red);
     }
-    button.delete:active {
+    button.red-btn:active {
         background-color: var(--active-red);
     }
 }
