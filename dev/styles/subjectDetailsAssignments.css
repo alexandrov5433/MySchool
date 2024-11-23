@@ -87,35 +87,39 @@
         margin-top: 2vh;
     }
 }
+.assignments-container .uploaded-solution-container {
+    border-top: 1px solid var(--black);
+    margin-top: 15px;
+    padding: 10px 0;
+
+    .label-container .title {
+        font-size: var(--size-option);
+        font-weight: bold;
+    }
+
+    .solution-container {
+        max-width: 80%;
+        font-size: var(--size-description);
+    }
+}
 
 .assignments-container .assigment-file-upload-container {
     border-top: 1px solid var(--black);
     margin-top: 15px;
     padding: 10px 0;
-    background-color: var(--background-gray);
     .group {
         label {
             font-size: var(--size-description);
             font-weight: bold;
         }
-        input {
-            /* border: transparent; */
-            width: 600px;
-            font-size: var(--size-description);
-            padding: 5px 5px;
-            font-family: var(--font-family);
-        }
-        textarea {
-            /* border: transparent; */
-            padding: 5px 5px;
-            width: 900px;
-            height: 250px;
-            font-size: var(--size-description);
-            font-family: var(--font-family);
-        }
+
     }
     .group .container-title {
         font-size: var(--size-option);
+    }
+    .group .upload-description {
+        font-size: var(--size-description);
+        font-weight: 100;
     }
     .add-margin-top{
         margin-top: 2vh;

@@ -90,6 +90,12 @@
                                         </div>
                                         <input type="text" id="title">
                                     </div>
+                                    <div class="group">
+                                        <div class="label-container">
+                                            <label for="description">Description</label>
+                                        </div>
+                                        <textarea name="description" id="description"></textarea>
+                                    </div>
                                     <div class="group add-margin-top">
                                         <div class="label-container">
                                             <label for="file">File to upload</label>
@@ -114,11 +120,6 @@
                                         <p>Deadline: 12.11.2024 24:00h</p>
                                     </div>
                                 </div>
-    
-                                <!-- <div class="file-icon-container">
-                                    <img src="../../public/icons/pdf/128.png" alt="file icon">
-                                </div> -->
-    
                                 <div class="first">
                                     <div class="info">
                                         <div class="description-container">
@@ -133,13 +134,23 @@
                                 </div>
 
                                 <div class="uploaded-solution-container">
-                                    
+                                    <div class="label-container ">
+                                        <label class="title">Current uploaded solution</label>
+                                    </div>
+                                    <div class="solution-container">
+                                        <span><a href="#">File name of last uploaded solution as anchor to download.File name of last uploaded solution as anchor to download.File name of last uploaded solution as anchor to download.</a></span>
+                                    </div>
                                 </div>
                                 <div class="assigment-file-upload-container">
                                     <form class="custom-file-upload-form">
                                         <div class="group">
                                             <div class="label-container ">
                                                 <label class="container-title">Upload solution</label>
+                                            </div>
+                                        </div>
+                                        <div class="group">
+                                            <div>
+                                                <label class="upload-description">Solutions may be uploaded until the deadline. Only the last solution uploaded is saved.</label>
                                             </div>
                                         </div>
                                         <div class="group add-margin-top">
