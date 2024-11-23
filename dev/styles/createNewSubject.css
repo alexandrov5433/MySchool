@@ -1,0 +1,33 @@
+.create-new-subject {
+    border: 1px solid red;
+    width: 98vw;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+}
+
+.create-new-subject .window {
+    width: 40vw;
+    height: 30vh;
+    box-shadow: var(--component-box-shadow-strong);
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+}
+
+.create-new-subject .window .info {
+    height: calc((30vh / 6) * 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+.create-new-subject .window .controls {
+    height: calc((30vh / 6) * 2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
