@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/core.css">
     <link rel="stylesheet" href="../styles/subjectDetailsMain.css">
     <link rel="stylesheet" href="../styles/subjectDetailsDownloadMaterials.css">
+    <link rel="stylesheet" href="../styles/customFileUpload.css">
 </head>
 
 <body>
@@ -77,23 +78,43 @@
 
                     <div class="lower-content">
 
+
+
                         <div class="materials-container">
-                            
+
+                            <div class="teacher-material-creator">
+                                <form class="custom-file-upload-form">
+                                    <div class="group">
+                                        <div class="label-container">
+                                            <label for="title">Title</label>
+                                        </div>
+                                        <input type="text" id="title">
+                                    </div>
+                                    <div class="group add-margin-top">
+                                        <div class="label-container">
+                                            <label for="file">File to upload</label>
+                                        </div>
+                                        <label for="fileUpload" class="custom-file-upload-btn">Select File
+                                            <input type="file" id="fileUpload"></input>
+                                        </label>
+                                        <div class="selected-file-name-container add-margin-top">
+                                            <span>Name of selected file.Name of selected file.Name of selected file.Name of selected file.Name of selected file.Name of selected file.Name of selected file.Name of selected file.Name of selected file.Name of selected file.</span>
+                                        </div>
+                                    </div>
+                                    <button class="add-margin-top">Create Material</button>
+                                </form>
+                            </div>
+
                             <div class="material">
     
-                                <div class="profile-picture-container">
-                                    <img src="../../public/test-teacher-profile-picture.jpg" alt="student picture">
+                                <div class="file-icon-container">
+                                    <img src="../../public/icons/pdf/128.png" alt="file icon">
                                 </div>
     
                                 <div class="first">
                                     <div class="info">
                                         <div class="name-container">
-                                            <p>Stefan Atanasov Iliev</p>
-                                        </div>
-                                        <div class="email-container">
-                                            <p>
-                                                satefan.iliev423@gmail.com
-                                            </p>
+                                            <p>Name of the uploaded file comes here. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, voluptatem!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +125,11 @@
                                 </div>
     
                             </div>
+                  
+
                         </div>
+
+
                         
                     </div>
 

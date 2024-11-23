@@ -18,16 +18,16 @@
     box-shadow: var(--component-box-shadow);
 }
 
-.materials-container .profile-picture-container {
+.materials-container .file-icon-container {
     display: flex;
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
     align-items: center;
     justify-content: center;
     img {
-        width: 150px;
-        height: 210px;
-        border: 4px solid var(--black);
+        /* 3w:4h */
+        width: 50px;
+        height: calc((50px / 3) * 4);
     }
 }
 
@@ -38,13 +38,69 @@
     background-color: var(--cosmic-latte);
     padding: 10px;
     .name-container {
-        width: 650px;
-        font-size: var(--size-mid-title);
-        font-weight: bold;
+        min-width: 650px;
+        width: 45vw;
+        font-size: var(--size-text);
+        /* font-weight: bold; */
     }
-    .email-container {
+    /* .email-container {
+        width: 650px;
+        height: fit-content;
         font-size: var(--size-description);
         color: var(--dim-gray);
+    } */
+}
+
+.materials-container .teacher-material-creator {
+    border: 1px solid var(--black);
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--background-gray);
+    .group {
+        label {
+            font-size: var(--size-description);
+            font-weight: bold;
+        }
+        input {
+            /* border: transparent; */
+            width: 600px;
+            font-size: var(--size-description);
+            padding: 5px 5px;
+            font-family: var(--font-family);
+        }
+        textarea {
+            /* border: transparent; */
+            padding: 5px 5px;
+            width: 900px;
+            height: 250px;
+            font-size: var(--size-description);
+            font-family: var(--font-family);
+        }
+    }
+    .add-margin-top{
+        margin-top: 2vh;
+    }
+    button {
+        height: fit-content;
+        width: fit-content;
+        padding: 5px 10px;
+        border: none;
+        border-radius: var(--border-radius);
+        font-size: var(--size-option);
+        font-weight: bold;
+        box-shadow: none;
+        text-shadow: none;
+        outline: none !important;
+        background-color: var(--mint-green);
+    }
+    button:active {
+        background: var(--active-mint-green);
+    }
+    button.discard {
+        background-color: var(--rusty-red);
+    }
+    button.discard:active {
+        background-color: var(--active-red);
     }
 }
 
