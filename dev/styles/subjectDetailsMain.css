@@ -104,10 +104,12 @@
         font-size: var(--size-description);
         background-color: var(--background-gray);
         border-bottom: transparent;
+        border-radius: 0;
         font-weight: bold;
         padding: 0 12px;
         border: transparent;
         color: var(--black);
+        height: inherit;
     }
     button:hover {
         color: var(--rusty-red);
