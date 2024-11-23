@@ -141,6 +141,39 @@
 
 }
 
+.assignments-container .all-uploaded-solutions-from-students-container {
+    border-top: 1px solid var(--black);
+    margin-top: 15px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    .label-container .title {
+        font-size: var(--size-option);
+        font-weight: bold;
+    }
+    .solution-container {
+        height: 60px;
+        background-color: var(--white);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .solution-container:hover {
+        box-shadow: var(--component-box-shadow);
+    }
+    .solution-container .student-name {
+        font-size: var(--size-option);
+        font-weight: bold;
+    }
+    .solution-container .student-id {
+        font-size: var(--size-description);
+        font-weight: bold;
+        color: var(--gray);
+    }
+
+}
+
 /* add class to hide elemnts */
 .assignments-container .hide {
     display: none !important;
