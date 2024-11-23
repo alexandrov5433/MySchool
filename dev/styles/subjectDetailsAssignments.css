@@ -86,6 +86,9 @@
     .add-margin-top{
         margin-top: 2vh;
     }
+    button {
+        margin-right: 2vw;
+    }
 }
 .assignments-container .uploaded-solution-container {
     border-top: 1px solid var(--black);
