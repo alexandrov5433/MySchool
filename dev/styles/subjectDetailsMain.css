@@ -137,24 +137,6 @@
         outline: none !important;
     }
 
-    button:active {
-        transform: var(--translate-y-btn);
-    }
-
-    button.join {
-        background: var(--mint-green);
-    }
-    button.join:active {
-        transform: var(--translate-y-btn);
-        background: var(--active-mint-green);
-    }
-
-    button.leave {
-        background: var(--rusty-red);
-    }
-    button.leave:active {
-        background: var(--active-red);
-    }
 }
 
 /* add class to hide a button */
