@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: var(--cosmic-latte);
+    background-color: var(--white);
     padding: 10px;
     .description-container {
         /* min-width: 650px; */
@@ -130,7 +130,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 30vw;
+    width: 60vw;
     padding-top: 10px;
     button {
         margin-right: 2vw;
