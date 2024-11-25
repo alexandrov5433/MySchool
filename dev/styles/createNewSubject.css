@@ -1,5 +1,4 @@
 .create-new-subject {
-    border: 1px solid red;
     width: 98vw;
     height: 87vh;
     display: flex;
@@ -30,4 +29,30 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.create-new-subject .subject-creation-form {
+    border: 1px solid var(--black);
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--background-gray);
+
+    .group {
+        label {
+            font-size: var(--size-description);
+            font-weight: bold;
+        }
+
+        input {
+            /* border: transparent; */
+            width: 600px;
+            font-size: var(--size-description);
+            padding: 5px 5px;
+            font-family: var(--font-family);
+        }
+    }
+
+    .add-margin-top {
+        margin-top: 2vh;
+    }
 }
