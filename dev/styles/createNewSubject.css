@@ -44,15 +44,10 @@
         }
 
         input {
-            /* border: transparent; */
             width: 600px;
             font-size: var(--size-description);
             padding: 5px 5px;
             font-family: var(--font-family);
         }
-    }
-
-    .add-margin-top {
-        margin-top: 2vh;
     }
 }
