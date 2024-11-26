@@ -107,7 +107,7 @@
 /* error communacation */
 /* show span and edit textContent when error */
 .register span.error {
-    display: none;
+    display: block;
     color: var(--rusty-red);
     font-size: var(--size-error-msg);
 }
