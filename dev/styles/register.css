@@ -1,6 +1,5 @@
 .register {
-    padding-top: 1vh;
-    height: inherit; 
+    height: inherit;
     width: 100%;
 }
 
@@ -16,26 +15,23 @@
 }
 
 .register .register-elements-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 0 0 20px;
+    padding: 0 20px;
+    gap: 30px;
     color: var(--black);
+
     h2 {
         font-size: var(--size-title);
     }
-}
-
-.register .form-group {
-    margin: 20px;
-}
-
-.register .form-btn {
-    margin-top: 20px;
 }
 
 .register .radio-container {
     display: flex;
     align-items: center;
     justify-content: center;
+
     label {
         margin-right: 15px;
         font-size: var(--size-option);
@@ -69,9 +65,10 @@
     padding: 15px 70px;
 }
 
-.register .no-acc-msg {
+.register .no-acc-msg-container {
     color: var(--dim-gray);
     font-size: var(--size-small-msg);
+
     a {
         text-decoration: none;
         text-transform: uppercase;
@@ -95,6 +92,7 @@
 .register input.false-input {
     border-bottom: 4px solid var(--rusty-red);
 }
+
 .register select.false-input {
     border-bottom: 4px solid var(--rusty-red);
 }
