@@ -83,3 +83,11 @@ button {
     text-shadow: none;
     outline: none;
 }
+
+button:disabled {
+    background-color: var(--gray) !important;
+    color: var(--black);
+}
+button:disabled:active {
+    transform: translateY(0) !important;
+}
