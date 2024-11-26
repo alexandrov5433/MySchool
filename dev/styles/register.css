@@ -5,7 +5,6 @@
 }
 
 .register form {
-    /* max-width: 320px; */
     width: 1000px;
     height: fit-content;
     margin: 0 auto;
@@ -48,9 +47,6 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    div {
-
-    }
 }
 
 .register form .form-control {
@@ -70,24 +66,7 @@
 }
 
 .register form .btn {
-    background: var(--rusty-red);;
-    border: none;
-    border-radius: var(--border-radius);
-    font-size: var(--size-option);
-    font-weight: bold;
     padding: 15px 70px;
-    box-shadow: none;
-    text-shadow: none;
-    outline: none !important;
-}
-
-.register form .btn:hover,
-.register form .btn:active {
-    background: var(--active-red);
-}
-
-.register form .btn:active {
-    transform: var(--translate-y-btn);
 }
 
 .register .no-acc-msg {
@@ -113,6 +92,9 @@
 }
 
 /* class to add by false validation */
-.false-input {
-    border-bottom: 4px solid var(--active-red) !important;
+.register input.false-input {
+    border-bottom: 4px solid var(--rusty-red);
+}
+.register select.false-input {
+    border-bottom: 4px solid var(--rusty-red);
 }
