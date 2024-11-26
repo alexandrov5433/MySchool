@@ -53,6 +53,9 @@ body {
 button.green-btn {
     background-color: var(--mint-green);
 }
+button.green-btn:hover {
+    background-color: var(--active-mint-green);
+}
 button.green-btn:active {
     background-color: var(--active-mint-green);
 }
@@ -62,8 +65,14 @@ button.red-btn {
 button.red-btn:active {
     background-color: var(--active-red);
 }
+button.red-btn:hover {
+    background-color: var(--active-red);
+}
 button.yellow-btn {
     background-color: var(--jasmine);
+}
+button.yellow-btn:hover {
+    background-color: var(--active-jasmine);
 }
 button.yellow-btn:active {
     background-color: var(--active-jasmine);
