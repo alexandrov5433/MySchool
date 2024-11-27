@@ -57,7 +57,7 @@
 .subject-details-view .upper-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 150px;
 }
