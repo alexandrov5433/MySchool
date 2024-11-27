@@ -1,10 +1,10 @@
-.application-details-view {
+.application-main-view {
     display: flex;
     flex-direction: column;
     width: 100%; 
 }
 
-.application-details-view .location {
+.application-main-view .location {
     border-bottom: 1px solid var(--black);
 
     span {
@@ -13,14 +13,14 @@
     }
 }
 
-.application-details-view .container {
+.application-main-view .container {
     box-shadow: var(--component-box-shadow);
     border-radius: var(--border-radius);
     background-color: var(--white);
     margin-top: 20px;
 }
 
-.application-details-view .image-container {
+.application-main-view .image-container {
     position: relative;
     display: flex;
     width: 100%;
@@ -41,7 +41,7 @@
         font-weight: bold;
     }
 }
-.application-details-view .teacher-pic-container {
+.application-main-view .applicant-pic-container {
     position: relative;
     width: 150px;
     height: 350px;
@@ -53,7 +53,7 @@
     }
 }
 
-.application-details-view .upper-content {
+.application-main-view .upper-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -61,14 +61,14 @@
     height: 150px;
 }
 
-.application-details-view .lower-content {
+.application-main-view .lower-content {
     display: flex;
     border-top: 5px solid var(--black);
     flex-direction: column;
     align-items: center;
 }
 
-.application-details-view .infos-and-mininav {
+.application-main-view .infos-and-mininav {
     height: 100%;
     width: 900px;
     display: flex;
@@ -78,7 +78,7 @@
 }
 
 
-.application-details-view .infos {
+.application-main-view .infos {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -96,7 +96,7 @@
     }
 }
 
-.application-details-view .mininav {
+.application-main-view .mininav {
     display: flex;
     height: 40px;
     button {
@@ -121,7 +121,7 @@
     }
 }
 
-.application-details-view .controls-container {
+.application-main-view .controls-container {
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -133,6 +133,6 @@
 }
 
 /* add class to hide a button */
-.application-details-view button.hide{
+.application-main-view button.hide{
     display: none;
 }
