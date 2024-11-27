@@ -15,7 +15,11 @@
     background-color: var(--background-gray);
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 90%;
+    min-height: 10vh;
+    height: auto;
 }
 
 .materials-container .material:hover {
@@ -33,11 +37,9 @@
     }
 }
 
-.materials-container .material .first {
+.materials-container .material .info {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: var(--cosmic-latte);
+    align-items: center;
     padding: 10px;
     .name-container {
         min-width: 650px;
