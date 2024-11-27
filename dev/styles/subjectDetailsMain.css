@@ -130,14 +130,6 @@
     button {
         height: 40px;
         width: 120px;
-        
-        border: none;
-        border-radius: var(--border-radius);
-        font-size: var(--size-option);
-        font-weight: bold;
-        box-shadow: none;
-        text-shadow: none;
-        outline: none !important;
     }
 
 }
