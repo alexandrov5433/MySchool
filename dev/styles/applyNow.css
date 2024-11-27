@@ -1,5 +1,4 @@
 .apply-now {
-    padding-top: 1vh;
     height: inherit;
     width: 100%;
 }
@@ -11,13 +10,15 @@
     background-color: var(--white);
     padding: 40px;
     border-radius: 4px;
-    color: var(--dark-cold-gray);
+    color: var(--dim-gray);
     box-shadow: var(--component-box-shadow);
 }
 
 .apply-now .apply-now-elements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     text-align: center;
-    padding: 0 0 20px;
     color: var(--black);
 
     h2 {
@@ -29,15 +30,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
+.apply-now .input-elements {
+    width: 480px;
+    display: flex;
 
+    flex-direction: column;
+    gap: 30px;
+}
 .apply-now .description-elements {
     width: 380px;
     padding: 10px;
     background-color: var(--light-cold-gray);
     border-radius: var(--border-radius);
-
+    
     span {
+        color: var(--dim-gray);
         text-align: left;
         display: block;
         font-size: var(--size-description);
@@ -51,12 +60,7 @@
     }
 }
 
-.apply-now .form-group {
-    margin: 20px;
-}
-
 .apply-now .form-group.special-input {
-    /* padding-left: 30px; */
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -64,10 +68,6 @@
         max-width: fit-content;
         font-size: var(--size-description);
     }
-}
-
-.apply-now .form-btn {
-    margin-top: 20px;
 }
 
 .apply-now .radio-container {
@@ -88,7 +88,7 @@
     border-radius: var(--border-radius);
     box-shadow: none;
     outline: none;
-    color: inherit;
+    color: var(--dim-gray);
     text-indent: 8px;
     height: 42px;
 }
@@ -98,25 +98,7 @@
 }
 
 .apply-now form .btn {
-    background: var(--rusty-red);
-    ;
-    border: none;
-    border-radius: var(--border-radius);
-    font-size: var(--size-option);
-    font-weight: bold;
     padding: 15px 70px;
-    box-shadow: none;
-    text-shadow: none;
-    outline: none !important;
-}
-
-.apply-now form .btn:hover,
-.apply-now form .btn:active {
-    background: var(--active-red);
-}
-
-.apply-now form .btn:active {
-    transform: var(--translate-y-btn);
 }
 
 .apply-now .no-acc-msg {
@@ -137,12 +119,13 @@
 /* error communacation */
 /* show span and edit textContent when error */
 .apply-now span.error {
-    display: none;
+    max-width: 100%;
+    display: block;
     color: var(--rusty-red);
     font-size: var(--size-error-msg);
 }
 
 /* class to add by false validation */
-.false-input {
-    border-bottom: 4px solid var(--active-red) !important;
+.apply-now input.false-input {
+    border-bottom: 4px solid var(--rusty-red);
 }
