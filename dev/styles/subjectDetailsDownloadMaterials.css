@@ -21,11 +21,9 @@
 .materials-container .file-icon-container {
     display: flex;
     width: 350px;
-    /* height: 250px; */
     align-items: center;
     justify-content: center;
     img {
-        /* 3w:4h */
         width: 50px;
         height: calc((50px / 3) * 4);
     }
@@ -41,14 +39,7 @@
         min-width: 650px;
         width: 45vw;
         font-size: var(--size-text);
-        /* font-weight: bold; */
     }
-    /* .email-container {
-        width: 650px;
-        height: fit-content;
-        font-size: var(--size-description);
-        color: var(--dim-gray);
-    } */
 }
 
 .materials-container .teacher-material-creator {
@@ -80,28 +71,6 @@
     .add-margin-top{
         margin-top: 2vh;
     }
-    button {
-        height: fit-content;
-        width: fit-content;
-        padding: 5px 10px;
-        border: none;
-        border-radius: var(--border-radius);
-        font-size: var(--size-option);
-        font-weight: bold;
-        box-shadow: none;
-        text-shadow: none;
-        outline: none !important;
-        background-color: var(--mint-green);
-    }
-    button:active {
-        background: var(--active-mint-green);
-    }
-    button.discard {
-        background-color: var(--rusty-red);
-    }
-    button.discard:active {
-        background-color: var(--active-red);
-    }
 }
 
 .materials-container .teacher-material-controls {
@@ -109,32 +78,6 @@
     justify-content: space-evenly;
     align-items: center;
     width: 18vw;
-    button {
-        height: fit-content;
-        width: fit-content;
-        padding: 5px 10px;
-        border: none;
-        border-radius: var(--border-radius);
-        font-size: var(--size-option);
-        font-weight: bold;
-        box-shadow: none;
-        text-shadow: none;
-        outline: none !important;
-    }
-
-    button.green-btn {
-        background-color: var(--mint-green);
-    }
-    button.green-btn:active {
-        background-color: var(--active-mint-green);
-    }
-
-    button.red-btn {
-        background-color: var(--rusty-red);
-    }
-    button.red-btn:active {
-        background-color: var(--active-red);
-    }
 }
 
 /* add class to hide elemnts */
